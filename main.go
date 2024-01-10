@@ -10,7 +10,7 @@ func main() {
 	list := []string{"EDteam", "gophers", "golang", "sotec"}
 
 	slices.Filter(list, func(item string) bool {
-		return strings.HasPrefix(strings.ToLower(item), "h")
+		return strings.HasPrefix(strings.ToLower(item), "g")
 	})
 
 }
