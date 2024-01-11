@@ -5,15 +5,14 @@ import (
 	"strings"
 
 	"github.com/Aldoihm/module/slices"
-	"rsc.io/quote"
-	quoteV3 "rsc.io/quote/v3"
+	"rsc.io/quote/v3"
 )
 
 func main() {
-	list := []string{"EDteam", "gophers", "golang", "sotec", quote.Hello()}
+	list := []string{"EDteam", "gophers", "golang", "sotec", quote.HelloV3()}
 
 	slices.Filter(list, func(item string) bool {
 		return strings.HasPrefix(strings.ToLower(item), "h")
 	})
-	fmt.Println(quoteV3.Concurrency())
+	fmt.Println(quote.Concurrency())
 }
