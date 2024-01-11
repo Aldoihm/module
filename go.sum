@@ -1,4 +1,2 @@
-github.com/Aldoihm/module v0.0.0-20240110232010-d1fa23c41190 h1:x1KQ+OpdrifgToyAr2ZchR9VurXdjqQsgnkdTHg+Ngo=
-github.com/Aldoihm/module v0.0.0-20240110232010-d1fa23c41190/go.mod h1:5XKBMM1WZYIE4UaYF3ao80U33TZfKt40GYZBxGVY9fc=
 golang.org/x/exp v0.0.0-20240110193028-0dcbfd608b1e h1:723BNChdd0c2Wk6WOE320qGBiPtYx0F0Bbm1kriShfE=
 golang.org/x/exp v0.0.0-20240110193028-0dcbfd608b1e/go.mod h1:iRJReGqOEeBhDZGkGbynYwcHlctCvnjTYIamk7uXpHI=
